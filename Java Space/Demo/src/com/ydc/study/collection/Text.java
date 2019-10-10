@@ -1,8 +1,6 @@
-package com.ydc.study;
+package com.ydc.study.collection;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Text {

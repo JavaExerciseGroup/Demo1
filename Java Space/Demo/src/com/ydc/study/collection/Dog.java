@@ -1,4 +1,4 @@
-package com.ydc.study;
+package com.ydc.study.collection;
 
 public  class Dog {
     public Dog(){}
