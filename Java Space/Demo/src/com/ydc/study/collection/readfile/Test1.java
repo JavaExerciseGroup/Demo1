@@ -21,7 +21,6 @@ public class Test1 {
 
             System.out.println(pathGBK);
             // readFileByLines(pathGBK);
-            ////dadasdasdas
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
