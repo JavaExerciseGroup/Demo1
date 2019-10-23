@@ -15,18 +15,7 @@ public class Test1 {
         String path = "E:\\Java Space\\DemoYDC\\Java Space\\Demo\\src\\com\\ydc\\study\\collection\\readfile\\ReadFile.txt";
         //String path = "E:\\Java Space\\DemoYDC\\Java Space\\Demo\\src\\com\\ydc\\study\\collection\\readfile\\套餐资费说明.txt";
 
-
-        try {
-            String pathGBK = new String(new String(path.getBytes("ISO-8859-1"), "utf-8"));
-
-            System.out.println(pathGBK);
-            // readFileByLines(pathGBK);
-            // readFileByLines(pathGBK);
-            // readFileByLines(pathGBK);
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-
+        readFileByLines(path);
 
     }
 
